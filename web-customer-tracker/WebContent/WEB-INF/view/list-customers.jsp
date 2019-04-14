@@ -6,6 +6,10 @@
 
 <head>
 <title>List customers</title>
+<!-- reference our style sheet-->
+<link 	type="text/css" 
+		rel="stylesheet"
+		href="${pageContext.request.contextPath}/resources/css/style.css" />
 </head>
 
 <body>
@@ -26,14 +30,14 @@
 						<th>Email</th>
 					</tr>
 
-				<!-- loop over and print our customers -->
-				<c:forEach var="tempCustomers" items="${customers}">
-					<tr>
-						<td>${tempCustomers.firstName}</td>
-						<td>${tempCustomers.lastName}</td>
-						<td>${tempCustomers.email}</td>
-					</tr>
-				</c:forEach>
+					<!-- loop over and print our customers -->
+					<c:forEach var="tempCustomers" items="${customers}">
+						<tr>
+							<td>${tempCustomers.firstName}</td>
+							<td>${tempCustomers.lastName}</td>
+							<td>${tempCustomers.email}</td>
+						</tr>
+					</c:forEach>
 				</table>
 			</div>
 		</div>
