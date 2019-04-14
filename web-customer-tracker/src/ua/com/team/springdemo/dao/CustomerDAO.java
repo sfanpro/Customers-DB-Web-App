@@ -1,8 +1,8 @@
-package com.ua.team.springdemo.dao;
+package ua.com.team.springdemo.dao;
 
 import java.util.List;
 
-import com.ua.team.springdemo.entity.Customer;
+import ua.com.team.springdemo.entity.Customer;
 
 public interface CustomerDAO {
 

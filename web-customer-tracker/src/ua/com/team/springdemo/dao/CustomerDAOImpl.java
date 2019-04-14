@@ -1,4 +1,4 @@
-package com.ua.team.springdemo.dao;
+package ua.com.team.springdemo.dao;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.ua.team.springdemo.entity.Customer;
+import ua.com.team.springdemo.entity.Customer;
 
 @Repository
 public class CustomerDAOImpl implements CustomerDAO {

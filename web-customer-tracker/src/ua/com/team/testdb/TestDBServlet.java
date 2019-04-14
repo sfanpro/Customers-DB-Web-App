@@ -1,4 +1,4 @@
-package com.ua.team.testdb;
+package ua.com.team.testdb;
 
 import java.io.IOException;
 import java.io.PrintWriter;

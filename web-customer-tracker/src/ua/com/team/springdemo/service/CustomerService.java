@@ -1,8 +1,8 @@
-package com.ua.team.springdemo.service;
+package ua.com.team.springdemo.service;
 
 import java.util.List;
 
-import com.ua.team.springdemo.entity.Customer;
+import ua.com.team.springdemo.entity.Customer;
 
 public interface CustomerService {
 

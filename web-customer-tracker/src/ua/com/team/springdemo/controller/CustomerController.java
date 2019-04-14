@@ -1,4 +1,4 @@
-package com.ua.team.springdemo.controller;
+package ua.com.team.springdemo.controller;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.ua.team.springdemo.entity.Customer;
-import com.ua.team.springdemo.service.CustomerService;
+import ua.com.team.springdemo.entity.Customer;
+import ua.com.team.springdemo.service.CustomerService;
 
 @Controller
 @RequestMapping("/customer")
