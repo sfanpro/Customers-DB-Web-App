@@ -2,6 +2,8 @@ package ua.com.team.springdemo.service;
 
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -18,5 +20,12 @@ public class CustomerServiceImpl implements CustomerService {
 	@Override
 	public List<Customer> getCustomers() {
 		return customerDAO.getCustomers();
+	}
+
+	@Override
+	@Transactional
+	public void saveCustomer(Customer theCustomer) {
+		customerDAO.saveCustomer(theCustomer);
+
 	}
 }
